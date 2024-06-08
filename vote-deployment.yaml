@@ -14,8 +14,10 @@ spec:
       labels:
         app: vote
     spec:
+      imagePullSecrets:
+      - name: dock
       containers:
-      - image: sphari/vote:0.2
+      - image: sphari/vote:44
         name: vote
         ports:
         - containerPort: 80
