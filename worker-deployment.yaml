@@ -17,5 +17,5 @@ spec:
       imagePullSecrets:
       - name: dock
       containers:
-      - image: sphari/worker:7
+      - image: sphari/worker:3
         name: worker
