@@ -17,7 +17,7 @@ spec:
       imagePullSecrets:
       - name: dock
       containers:
-      - image: sphari/result:2
+      - image: sphari/result:4
         name: result
         ports:
         - containerPort: 80
