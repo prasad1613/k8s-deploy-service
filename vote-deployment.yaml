@@ -17,7 +17,7 @@ spec:
       imagePullSecrets:
       - name: dock
       containers:
-      - image: sphari/vote:44
+      - image: sphari/vote:21
         name: vote
         ports:
         - containerPort: 80
